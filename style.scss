@@ -217,5 +217,74 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+.footer-contacts {
+  background-color: #445162;
+  color: #FFFFFF;
+  padding-top: 25px;
+  padding-bottom: 48px;
+}
+.wrapper-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+  padding-top: 43px;
 
 
+}
+.footer-form > input ,
+.footer-form > textarea ,{
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445162;
+  border-radius: 5px;
+  border: none;
+  width: 503px;
+  padding: 12px;
+  margin-bottom: 19px;
+}
+.heading-footer {
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.form-button-send {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #445161;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 50px 7px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+  margin: 0 auto;
+  }
+.our-contacts {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: left;
+  align-content: start;
+}
+.padding-bottom {
+  padding-bottom: 18px;
+}
+
+.icon {
+  display:inline-block;
+  vertical-align: text-top;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.networks {
+  padding-top: 50px;
+}
